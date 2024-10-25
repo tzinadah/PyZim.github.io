@@ -9,18 +9,15 @@
                     <h3 class="section-subheading text-muted">Meet the organizing team of {{ CONFERENCE_NAME }}</h3>
                 </div>
                 <div class="row">
-                  {% for avartar, name, name, role, class in VOLUNTEERS %}
+                  {% for avartar, name, name, role, links in VOLUNTEERS %}
                     <div class="col-lg-4">
                         <div class="team-member">
                           <img class="mx-auto rounded-circle" src="{{ site_url }}/theme/images/img/team/{{ avartar }}" alt="..." />
                           <h4>{{ name }}</h4>
                           <p class="text-muted">{{ role }}</p>
-                            {% if SOCIAL %}
-                          {% for name, link, class in SOCIAL %}
                             <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a> -->
-                            <a class="btn btn-dark btn-social mx-2" href="{{ link }}" aria-label="{{ name }}"><i class="{{ class }}"></i></a>
-                            {% endfor %}
-                            {% endif %}
+                            <a class="btn btn-dark btn-social mx-2" href="{{ links.0 }}" aria-label="{{ X }}"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="{{ links.1 }}" aria-label="{{ LinkedIn }}"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     {% endfor %}
