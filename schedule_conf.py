@@ -11,7 +11,8 @@ DAY1 = [
 ]
 
 DAY2 = [
-("07:30-08:30", "Registration", ""),
+("07:30-08:15", "Registration", ""),
+("08:15-08:30", "Opening Remarks", "Ronald Maravanyika"),
 ("08:30-09:00", "KeyNote", ""),
 ("09:40-10:10", "HTMX: Making Web Dev Fun Again", "Michael Nyamande "),
 ("10:20-10:50", "Tea Break", ""),
