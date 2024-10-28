@@ -66,7 +66,7 @@ branch. This can be done via the `Makefile` and the `ghp-import` script::
     $ ghp-import output -b gh-pages
     $ git push origin gh-pages
 
-The current version should be live now at https://zw.pycon.org
+The current version should be live now at https://pyconzim.co.zw/
 
 =========================
 Changing the HTML and CSS
