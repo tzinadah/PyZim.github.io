@@ -73,7 +73,7 @@ MENU_ITEMS = [
         ("sponsors.html", "Sponsors"),
         ("policies.html", "Policies"),
         ("team.html", "Team"),        
-        ("diversity.html", "Diversity"),
+        ("diversity.html", "Oppurtunity Grant"),
         # ("news.html", "News"),
         ]
 
